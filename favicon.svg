@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="r"><rect width="32" height="32" rx="5"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <!-- night-sky background -->
+    <rect width="32" height="32" fill="#131329"/>
+    <!-- grass platform (the game's ground) -->
+    <rect y="25" width="32" height="3" fill="#6abe4c"/>
+    <rect y="28" width="32" height="4" fill="#3f8f35"/>
+    <!-- pixel N: drop shadow layer (retro hard shadow) -->
+    <g fill="#8a5f1d">
+      <path transform="translate(6.75,3.25)" d="M0 0h3.5v24.5H0z
+        M17.5 0H21v24.5h-3.5z
+        M3.5 3.5H7v7H3.5z
+        M7 7h3.5v7H7z
+        M10.5 10.5H14v7h-3.5z
+        M14 14h3.5v7H14z"/>
+    </g>
+    <!-- pixel N: gold face -->
+    <g fill="#ffc83d">
+      <path transform="translate(5.5,2)" d="M0 0h3.5v24.5H0z
+        M17.5 0H21v24.5h-3.5z
+        M3.5 3.5H7v7H3.5z
+        M7 7h3.5v7H7z
+        M10.5 10.5H14v7h-3.5z
+        M14 14h3.5v7H14z"/>
+    </g>
+    <!-- top-edge highlight on the verticals -->
+    <g fill="#ffe08a">
+      <rect x="5.5" y="2" width="3.5" height="2"/>
+      <rect x="23" y="2" width="3.5" height="2"/>
+    </g>
+  </g>
+</svg>
